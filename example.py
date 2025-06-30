@@ -1,5 +1,6 @@
 def hello_world(name):
-    print(f"{name} , hello_world")
+   return f"{name} , hello_world"
 
 if __name__ == "__main__":
-    hello_world("jh")
+    result = hello_world("jh")
+    print(result)
